@@ -1,0 +1,86 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:windowBackground">@drawable/splash_new</item>
+    </style>
+
+    <style name="Match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="message_textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="news_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/title</item>
+    </style>
+
+    <style name="news_publication">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="LLH1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/padding_item</item>
+        <item name="android:background">@color/itemBackgroundColor</item>
+    </style>
+
+    <style name="LLV1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginStart">@dimen/padding_item</item>
+        <item name="android:layout_marginEnd">@dimen/padding_item</item>
+    </style>
+
+    <style name="LLV2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:defaultValue">@string/settings_search_query_default</item>
+        <item name="android:key">@string/settings_search_query_key</item>
+        <item name="android:title">@string/settings_search_query_label</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ListPref">
+        <item name="android:defaultValue">@string/settings_order_by_list_default</item>
+        <item name="android:key">@string/settings_order_by_list_key</item>
+        <item name="android:title">@string/settings_order_by_list_label</item>
+        <item name="android:entries">@array/settings_order_by_labels</item>
+    </style>
+
+
+</resources>

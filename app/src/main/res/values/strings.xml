@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="main_screen_title">Lately on the news</string>
+
+    <string name="title_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien amet.</string>
+    <string name="section_placeholder">Section</string>
+    <string name="date_placeholder">01/01/2017</string>
+    <string name="time_placeholder">08:30</string>
+
+    <string name="message_placeholder">Message</string>
+
+    <string name="message_no_internet">No internet connection</string>
+    <string name="message_no_articles">No articles found</string>
+    <string name="message_fetching">Collecting articles... Please wait :) </string>
+    <string name="message_refreshing">Refreshing articles... Please wait :)</string>
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_search_query_label">Search for: </string>
+    <string name="settings_search_query_key">query</string>
+    <string name="settings_search_query_default">France</string>
+
+    <string name="settings_order_by_list_label">Order by:</string>
+    <string name="settings_order_by_list_key">order-by</string>
+    <string name="settings_order_by_list_default">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value">relevance</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value">newest</string>
+
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value">oldest</string>
+</resources>
